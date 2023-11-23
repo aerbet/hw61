@@ -1,13 +1,13 @@
-import { useState } from 'react'
-import './App.css'
+import React from 'react';
+import './App.css';
+import Builder from './container/Builder/Builder';
 
-function App() {
-
+const App: React.FC = () => {
   return (
-    <>
+    <div className="App">
+      <Builder />
+    </div>
+  );
+};
 
-    </>
-  )
-}
-
-export default App
+export default App;
